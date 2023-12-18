@@ -16,9 +16,10 @@ Prerequisites
 
 Installation
 
-    Clone the repo:
-    git clone https://your-repository-link-here.git
-    Install NPM packages:
+Clone the repo:
+    git clone https://github.com/JoeAxelrod/replicate-facebook-request.git
+
+Install NPM packages:
     npm install
 
 Usage
@@ -33,19 +34,13 @@ The server will start on http://localhost:3000. To replicate a Facebook request,
 
 Replace {userId} with the profile ID you want to query.
 
-Code Structure
 
-    - src/index.ts: Contains the Express server setup and the endpoint to handle the Facebook request replication.
-    - findPaths-ProfileCometHeaderQuery.js: Script that analyzes the .har file to identify necessary information for the request replication.
+### Code Structure
+- src/index.ts: Contains the Express server setup and the endpoint to handle the Facebook request replication.
+<br><br>
+- findPaths-ProfileCometHeaderQuery.js: Script that analyzes the .har file to identify necessary information for the request replication.
+<br><br>
 
-Output Visualization
+### Output Visualization
 
 The ProfileCometHeaderQuery-Shows.png image provides a visual summary of the script's output for easier understanding of the data flow.
-
-Contributing
-
-Contributions are welcome. Please open an issue first to discuss what you would like to change or submit a pull request.
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
