@@ -17,9 +17,11 @@ Prerequisites
 Installation
 
 Clone the repo:
+
     git clone https://github.com/JoeAxelrod/replicate-facebook-request.git
 
 Install NPM packages:
+
     npm install
 
 Usage
